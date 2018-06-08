@@ -1,0 +1,165 @@
+/***** BODY *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: auto 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.twothird-width {
+  width: 800px;
+  float: left;
+}
+
+.third-width {
+  width: 399px;
+  float: left;
+}
+
+
+
+/***** HEADER *****/
+
+header {
+  line-height: 23pt;
+}
+
+
+header h1 {
+  font-size: 30pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  clear: both;
+}
+
+#headaccent {
+  color: #77a466;
+}
+
+nav {
+    float: right;
+    padding-top: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+    color: #77a466;
+    padding-left: 20px;
+}
+
+
+/***** Introduction *****/
+
+#introduction img.mix {
+  border-style: solid hidden solid hidden;
+  border-width: 3px;
+  border-color: #77a466;
+}
+
+#introduction .bottom{
+  padding: 20px 0;
+
+}
+#introduction h2 {
+  font-size: 18pt;
+  color: #77a466;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#introduction p{
+  color: #000000;
+  font-size: 16pt;
+  text-align: left;
+  line-height: 25px;
+}
+
+
+/***** THREE PANELS *****/
+
+#threepanels {
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #dedbdc;
+  width: auto;
+}
+
+#threepanels h3{
+  font-size: 12pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 30px 30px 0px 30px;
+}
+
+h3#article-head{
+  padding-left: 0px;
+}
+
+#threepanels p{
+  font-size: 16pt;
+  line-height: 21pt;
+  padding: 0 30px 25px 30px;
+}
+
+p#articles{
+  font-size: 16pt;
+  line-height: 18pt;
+  color: #77a466;
+  padding-left: 0px;
+}
+
+p#contactinfo{
+  line-height: 24pt;
+}
+
+#middlepanel {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: #dedbdc;
+}
+
+
+/***** FOOTER *****/
+
+footer{
+  float: left;
+  text-align: center;
+}
+
+#footer-msg{
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #dedbdc;
+}
+
+footer p{
+  font-size: 16pt;
+  line-height: 25pt;
+  color: #737373;
+  text-transform: uppercase;
+}
+
+#fresh{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: #77a466;
+  font-size: 20pt;
+  text-transform: lowercase;
+}
